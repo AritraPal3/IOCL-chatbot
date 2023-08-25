@@ -21,7 +21,7 @@ This chatbot leverages the power of RASA's natural language understanding and di
 1. Clone this repository to your local machine using:
 
    ```bash
-   git clone https://github.com/your-username/faq-pf-chatbot.git
+   git clone <paste the url here>
    ```
 
 2. Navigate to the project directory:
@@ -80,3 +80,5 @@ rasa interactive
 
 
 Feel free to explore, modify, and enhance this chatbot project. If you have any questions or need further assistance, please don't hesitate to reach out to the project maintainers. Happy coding!
+
+-- many things are yet to implemented
