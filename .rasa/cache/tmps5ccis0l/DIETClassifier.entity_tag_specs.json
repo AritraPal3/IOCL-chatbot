@@ -1,0 +1,44 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-fund_type",
+      "2": "I-fund_type",
+      "3": "L-fund_type",
+      "4": "U-fund_type",
+      "5": "B-reciever",
+      "6": "I-reciever",
+      "7": "L-reciever",
+      "8": "U-reciever",
+      "9": "B-reciver",
+      "10": "I-reciver",
+      "11": "L-reciver",
+      "12": "U-reciver",
+      "13": "B-state",
+      "14": "I-state",
+      "15": "L-state",
+      "16": "U-state",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-fund_type": 1,
+      "I-fund_type": 2,
+      "L-fund_type": 3,
+      "U-fund_type": 4,
+      "B-reciever": 5,
+      "I-reciever": 6,
+      "L-reciever": 7,
+      "U-reciever": 8,
+      "B-reciver": 9,
+      "I-reciver": 10,
+      "L-reciver": 11,
+      "U-reciver": 12,
+      "B-state": 13,
+      "I-state": 14,
+      "L-state": 15,
+      "U-state": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  }
+]

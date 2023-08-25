@@ -1,0 +1,23 @@
+{
+  "pf": "provident fund",
+  "provident fund": "provident fund",
+  "beneficiaries": "beneficiary",
+  "beneficiary": "beneficiary",
+  "nominee": "beneficiary",
+  "death": "demise",
+  "demise": "demise",
+  "pass away": "demise",
+  "not alive": "demise",
+  "dead": "demise",
+  "deceased": "demise",
+  "job": "job",
+  "change employer": "job",
+  "docs": "documents",
+  "documents": "documents",
+  "files": "documents",
+  "provident funds": "provident funds",
+  "jobs": "jobs",
+  "change employers": "change employers",
+  "specific form": "specific form",
+  "heirs": "heirs"
+}

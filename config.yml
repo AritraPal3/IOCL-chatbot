@@ -1,0 +1,9 @@
+language: en_core_web_md
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: CountVectorsFeaturizer
+  - name: DIETClassifier
+    epochs: 10000
+    random_seed: 2
+  - name: EntitySynonymMapper
+assistant_id: 20230821-131754-devout-buy-in

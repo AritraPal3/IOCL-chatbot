@@ -1,0 +1,261 @@
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hey
+    - hello
+    - hi there
+    - good morning
+    - good evening
+
+- intent: define_provident_fund
+  examples: |
+    - Can you define what a [provident fund](fund_type) is
+    - What is the meaning of a [provident fund](fund_type)
+    - I'm not clear on what exactly a [provident fund](fund_type) is, can you explain
+    - Could you elaborate on the concept of a [provident fund](fund_type)
+    - What does the term [provident fund](fund_type) refer to
+    - Can you provide a simple explanation of a [provident fund](fund_type)
+    - I've heard about [provident funds](fund_type) but I'm not sure what they are, can you help
+    - How would you describe a [provident fund](fund_type) in basic terms
+    - What's the basic idea behind a [provident fund](fund_type)
+    - Can you give an overview of what [provident funds](fund_type) are all about
+
+- intent: provident_fund_working_mechanism
+  examples: |
+    - I'm curious about how a [provident fund](fund_type) system operates, can you explain
+    - Can you provide an overview of the mechanics of a [provident fund](fund_type)
+    - How exactly does a [provident fund](fund_type) work, can you break it down
+    - Could you elaborate on the workings of a [provident fund](fund_type) and how it functions
+    - What are the main processes involved in a [provident fund](fund_type) and how do they work
+    - Can you walk [me](user) through the key components and processes of a [provident fund](fund_type)
+    - I want to understand the inner workings of a [provident fund](fund_type), can you provide insights
+    - What's the step-by-step mechanism of how a [provident fund](fund_type) functions
+    - How does a [provident fund](fund_type) actually operate on a day-to-day basis
+    - What are the underlying principles and operations of a [provident fund](fund_type) that I should be aware of
+
+- intent: provident_fund_benefit
+  examples: |
+    - What are the [benefits](use) of enrolling in a [provident fund](fund_type)
+    - How does participating in a [provident fund](fund_type) [benefit](use) [my](user) financial future
+    - Why should [I](user) join a [provident fund](fund_type) and what's in it for [me](user)
+    - Can you explain how being part of a [provident fund](fund_type) can [positively impact](use) me
+    - What advantages does contributing to a [provident fund](fund_type) offer
+    - Are there any specific [provident fund](fund_type) benefits [I](user) should be aware of
+    - How does a [provident fund](fund_type) help employees achieve their financial goals
+    - Can you outline the [perks](use) of being a [member](user) of a [provident fund](fund_type)
+    - In what ways does a [provident fund](fund_type) contribute to long-term financial security
+    - What are the key advantages of choosing a [provident fund](fund_type) over other investment options
+    - Are there any tax benefits associated with contributing to a [provident fund](fund_type)
+    - How can being part of a [provident fund](fund_type) enhance [my](user) retirement planning
+    - What positive impacts can participating in a [provident fund](fund_type) have on [my](user) financial [well-being](use)
+
+- intent: provident_fund_management
+  examples: |
+    - What parties are in charge of [administering](admin) a [provident fund](fund_type)
+    - How does the [management](admin) of a [provident fund](fund_type) usually work
+    - Can you provide insight into the responsibilities of [employers](supervise) and [fund managers](supervise)  in [managing](admin) a [provident fund](fund_type)
+    - What roles do [employers](supervise) and [fund managers](supervise)  play in the [administration](admin) of a [provident fund](fund_type)
+    - Who oversees the [provident fund](fund_type) operations and ensures its proper [management](admin)
+    - Could you elaborate on the tasks carried out by [fund managers](supervise)  and [employers](supervise) in [managing](admin) a [provident fund](fund_type)
+    - How are the activities and operations of a [provident fund](fund_type) monitored and supervised
+    - Are there any regulations or guidelines governing the [administration](admin) of a [provident fund](fund_type)
+    - Can you explain the division of responsibilities between [employers](supervise) and [fund managers](supervise)  in [managing](admin) a [provident fund](fund_type)
+    - What is the typical structure of [provident fund](fund_type) [management](admin) teams and roles
+    - How do [employers](supervise) and [fund managers](supervise)  collaborate to ensure effective [management](admin) of a [provident fund](fund_type)
+
+- intent: comparison_with_retirement_fund
+  examples: |
+    - What sets a [provident fund](fund_type) apart from a retirement fund
+    - Can you clarify the differences between a [provident fund](fund_type) and a retirement fund
+    - What factors determine whether [I](user) should opt for a [provident fund](fund_type) or a retirement fund
+
+- intent: provident_fund_types
+  examples: |
+    - Are there different types of [provident fund](fund_type) available
+    - Can you explain the variations among different types of [provident funds](fund_type)
+    - How do the different types of [provident fund](fund_type) cater to various individual needs
+
+- intent: contributing_to_provident_fund
+  examples: |
+    - How is the contribution amount for a [provident fund](fund_type) calculated
+    - Could you clarify the formula used for determining [my](user) [provident fund](fund_type) contribution
+    - What factors influence the calculation of [my](user) [pf](fund_type) contributions
+
+- intent: employer_employee_contributions
+  examples: |
+    - What are the responsibilities of the employer and the employee in [provident fund](fund_type) contributions
+    - How is the contribution split between the employer and the employee
+    - Is the contribution ratio the same across all companies
+
+- intent: changing_jobs
+  examples: |
+    - What happens to [my](user) [pf](fund_type) when [I](user) switch [jobs](job)
+    - How is [my](user) [provident fund](fund_type) affected when [I](user) [change employers](job)
+    - Can [I](user) continue contributing to the same [provident fund](fund_type) after changing [jobs](job)
+    - If [I](user) change [jobs](job), what happens to [my](user) [provident fund](fund_type)
+    - How does switching [employers](job) affect [my](user) [provident fund](fund_type) account
+    - What is the impact on [my](user) [provident fund](fund_type) if [I](user) move to a new [job](job)
+    - Can [I](user) transfer [my](user) [provident fund](fund_type) to a new company if [I](user) change [jobs](job)
+    - What steps do [I](user) need to take regarding [my](user) [provident fund](fund_type) when [I](user) switch [jobs](job)
+    - Do [I](user) need to notify anyone about [my](user) [provident fund](fund_type) if [I](user) [change employers](job)
+    - Can [I](user) withdraw [my](user) [provident fund](fund_type) when [I](user) switch [jobs](job)
+    - Is there a waiting period for [my](user) [provident fund](fund_type) if [I](user) join a new [job](job)
+    - Can [I](user) consolidate multiple [provident fund](fund_type) accounts from different [jobs](job)
+    - How can [I](user) ensure a smooth transition of [my](user) [provident fund](fund_type) when changing [jobs](job)
+    - Will [my](user) [provident fund](fund_type) contributions automatically transfer to the new [job](job)
+    - What is the process for updating [my](user) [provident fund](fund_type) details after [changing employers](job)
+
+- intent: goodbye
+  examples: |
+    - goodbye
+    - thankyou
+    - bye
+    - ok thankyou
+    - talk to you later
+    - see you around
+
+- synonym: provident fund
+  examples: |
+    - pf
+
+- intent: nomination_process
+  examples: |
+    - How can [I](user) [nominate](selection) a [beneficiary](reciever) for [my](user) [provident fund](fund_type)
+    - What is the process to [designate](selection) a [beneficiary](reciever) for [my](user) [provident fund](fund_type)
+    - Can [I](user) update the [nominated](selection)  [beneficiary](reciever) for [my](user) [provident fund](fund_type) later on
+    - Is it possible to change [my](user) [nominated](selection)  [beneficiary](reciever) at a later date
+    - What details do [I](user) need to provide when [nominating](selection) a [beneficiary](reciever) for [my](user) [provident fund](fund_type)
+    - Are there any specific requirements for naming a [beneficiary](reciever) for [my](user) [provident fund](fund_type)
+    - What information should [I](user) include when [designating](selection) a [beneficiary](reciever) for [my](user) [provident fund](fund_type)
+    - Do [I](user) need to submit any [documents](docs) when [nominating](selection) a [beneficiary](reciever)
+    - Are there any [forms](documents) or paperwork required for the [beneficiary](reciever) [nomination](selection) process
+    - Can you explain the steps for completing the [beneficiary](reciever) [nomination](selection) process
+    - What are the guidelines for [naming](selection) a [beneficiary](reciever) for [my](user) [provident fund](fund_type)
+    - How do [I](user) go about [nominating](selection) someone to receive [my](user) [provident fund](fund_type) in case of [my](user) [absence](state)
+
+- intent: changing_benificiary
+  examples: |
+    - Can [I](user) modify the [nominated](selection) [beneficiary](reciever) after I've already submitted the form
+    - How can [I](user) update the [nominated](selection) [beneficiary](reciever) for [my](user) [provident fund](fund_type) after submitting
+    - What steps do [I](user) need to follow to change the [nominated](selection) [beneficiary](reciever) for [my](user) account
+    - Are there any limitations or rules for altering the [nominated](selection) [beneficiary](reciever)
+    - How often am [I](user) allowed to change or update the [nominated](selection) [beneficiary](reciever) for [my](user) account
+    - Is there a specific process for revising the [nominated](selection) [beneficiary](reciever) details
+    - What happens if [I](user) want to replace the [nominated](selection) [beneficiary](reciever) with someone else
+    - Can [I](user) provide new [documentation](documents) when updating the [nominated](selection) [beneficiary](reciever)
+    - What [paperwork](documents) do [I](user) need to provide for changing the [nominated](selection) [beneficiary](reciever)
+    - Can you outline the steps involved in changing the [nominated](selection) [beneficiary](reciever) for [my](user) [provident fund](fund_type)
+    - Are there any requirements [I](user) should be aware of when making changes to the [nominated](selection) [beneficiary](reciever)
+
+- intent: deceased_account_holder
+  examples: |
+    - What happens to [my](user) [provident fund](fund_type) in the event of [my](user) [demise](state)
+    - If [I](user) pass away, what will occur with [my](user) [provident fund](fund_type)
+    - Is the [nominated](selection)  [beneficiary](reciever) automatically entitled to [my](user) [provident fund](fund_type) when I'm [no longer alive](state)
+    - Can [my](user) legal [heirs](reciver) claim [my](user) [provident fund](fund_type) if [I](user) haven't named a [beneficiary](reciever)
+    - What is the procedure if [I](user) haven't designated any [beneficiary](reciever) and I'm [no longer alive](state)
+    - In the unfortunate event of [my](user) [demise](state), what happens to the funds in [my](user) [provident fund](fund_type)
+    - How is the distribution of [my](user) [provident fund](fund_type) handled if [I](user) haven't made beneficiary arrangements before [my](user) passing
+    - Can you explain the process if [I](user) haven't [nominated](selection)  a [beneficiary](reciever) and I'm [deceased](state)
+    - What are the steps that need to be taken if [I](user) haven't specified a [beneficiary](reciever) and I'm no longer here
+    - Is there a default process for handling [my](user) [provident fund](fund_type) if [I](user) haven't planned for its distribution before [my](user) [demise](state)
+
+- intent: distribution_of_funds
+  examples: |
+    - Is the [provident fund](fund_type) amount passed on to the [nominee](reciever) without any legal process
+    - How is the [provident fund](fund_type) distributed among multiple [beneficiaries](reciever)
+    - Are there any taxes or fees applicable to the distribution of [provident fund](fund_type) to [beneficiaries](reciever)
+
+- synonym: beneficiary
+  examples: |
+    - beneficiaries
+    - nominee
+
+- synonym: death
+  examples: |
+    - demise
+    - pass away
+    - not alive
+    - dead
+    - deceased
+    - no longer alive
+    - absence
+
+- synonym: job
+  examples: |
+    - job
+    - change employer
+    - changing employers
+    - changing employer
+  
+- synonym: documents
+  examples: |
+    - docs
+    - files
+    - documentation
+    - document
+    - paperwork
+    - requirements
+
+- synonym: nomination
+  examples: |
+    - nominate
+    - designate
+    - designating
+    - nominating
+
+- synonym: I
+  examples: |
+    - account holder
+    - my
+    - me
+    - member
+
+- synonym: advantages
+  examples: |
+    - benefits
+    - benefit
+    - advantage
+    - use of
+    - positively impact
+    - well-being
+    - perks
+
+- synonym: managing
+  examples: |
+    - manage
+    - manages
+    - administer
+    - admin
+    - handling
+    - monitored
+    - supervised
+- synonym: process
+  examples: |
+    - procedure
+    - steps
+    - step by step
+    - step-by-step
+    - default process
+    - rules
+    - guidelines
+    - mechanics
+    - functioning
+
+- synonym: change
+  examples: |
+    - alter
+    - modify
+    - replace
+    - update
+    - updating
+    - switch
+
+- synonym: explain
+  examples: |
+    - define 
+    - elaborate
+    - meaning
+    - explanation
+    - overview
