@@ -1,12 +1,13 @@
 stories:
   - story: greet user and ask about provident fund
     steps:
-      - intent: greet
       - action: utter_welcome
+      - intent: greet
       - action: action_ask
       - intent: define_provident_fund
+        entities:
+          - fund_type: "provident fund"
       - action: action_define
       - intent: goodbye
       - action: utter_thanks
       - action: utter_goodbye
-    

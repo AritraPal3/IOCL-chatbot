@@ -3,7 +3,7 @@ pipeline:
   - name: WhitespaceTokenizer
   - name: CountVectorsFeaturizer
   - name: DIETClassifier
-    epochs: 10000
+    epochs: 1000
     random_seed: 2
   - name: EntitySynonymMapper
 assistant_id: 20230821-131754-devout-buy-in
