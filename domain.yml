@@ -31,40 +31,40 @@ entities:
 
 responses:
   utter_welcome:
-    - text: Hello! Welcome to our Provident Fund Chatbot. I'm here to provide you with information about provident funds. How can I assist you today?
-    - text: Hi there! Thank you for choosing our Provident Fund Chatbot. Feel free to ask any questions you have about provident funds.
-    - text: Welcome! I'm your Provident Fund Chatbot, ready to answer your queries. What would you like to know about provident funds?
-    - text: Hi! I'm here to help you understand everything you need to know about provident funds. Feel free to ask me anything.
-    - text: Greetings! Exploring the world of provident funds? I'm here to provide you with accurate and useful information.
-    - text: Hello there! If you're curious about provident funds, you've come to the right place. How can I assist you today?
+    - text: "Hello! Welcome to our Provident Fund Chatbot. I'm here to provide you with information about provident funds. How can I assist you today?"
+    - text: "Hi there! Thank you for choosing our Provident Fund Chatbot. Feel free to ask any questions you have about provident funds."
+    - text: "Welcome! I'm your Provident Fund Chatbot, ready to answer your queries. What would you like to know about provident funds?"
+    - text: "Hi! I'm here to help you understand everything you need to know about provident funds. Feel free to ask me anything."
+    - text: "Greetings! Exploring the world of provident funds? I'm here to provide you with accurate and useful information."
+    - text: "Hello there! If you're curious about provident funds, you've come to the right place. How can I assist you today?"
 
   utter_goodbye:
-    - text: Thank you for using our Provident Fund Chatbot. If you have more questions in the future, don't hesitate to ask. Goodbye!
-    - text: It was a pleasure assisting you with your provident fund queries. If you need further information, feel free to return. Goodbye!
-    - text: Goodbye! If you have more questions about provident funds later on, remember that I'm here to help. Have a great day!
-    - text: Farewell! If you ever need more insights into provident funds, don't hesitate to reach out. Take care and goodbye!
-    - text: See you around! Don't hesitate to return if you have more questions about provident funds. Have a wonderful day!
+    - text: "Thank you for using our Provident Fund Chatbot. If you have more questions in the future, don't hesitate to ask. Goodbye!"
+    - text: "It was a pleasure assisting you with your provident fund queries. If you need further information, feel free to return. Goodbye!"
+    - text: "Goodbye! If you have more questions about provident funds later on, remember that I'm here to help. Have a great day!"
+    - text: "Farewell! If you ever need more insights into provident funds, don't hesitate to reach out. Take care and goodbye!"
+    - text: "See you around! Don't hesitate to return if you have more questions about provident funds. Have a wonderful day!"
 
   utter_thanks:
-    - text: You're welcome! If you have more questions or need assistance, feel free to ask.
-    - text: No problem! If there's anything else you'd like to know, just let me know.
-    - text: You're welcome! If you ever need more information about provident funds, don't hesitate to reach out.
-    - text: Glad I could help! If you have more queries in the future, don't hesitate to ask.
-    - text: My pleasure! Remember that I'm here to assist you whenever you have questions about provident funds.
+    - text: "You're welcome! If you have more questions or need assistance, feel free to ask."
+    - text: "No problem! If there's anything else you'd like to know, just let me know."
+    - text: "You're welcome! If you ever need more information about provident funds, don't hesitate to reach out."
+    - text: "Glad I could help! If you have more queries in the future, don't hesitate to ask."
+    - text: "My pleasure! Remember that I'm here to assist you whenever you have questions about provident funds."
 
   utter_ask_more_info:
-    - text: Sure! To better assist you, could you please provide more details about the specific aspect of provident funds you're interested in?
-    - text: Of course! I'd be happy to help. Can you give me a bit more information about the topic within provident funds you'd like to explore?
-    - text: Certainly! In order to provide you with accurate information, could you please specify the area of provident funds you're curious about?
-    - text: I'd be glad to assist you further. Could you provide additional context or details about the particular area of provident funds you'd like to know more about?
-    - text: Absolutely! To give you the best information, could you please let me know which specific aspect of provident funds you're interested in?
+    - text: "Sure! To better assist you, could you please provide more details about the specific aspect of provident funds you're interested in?"
+    - text: "Of course! I'd be happy to help. Can you give me a bit more information about the topic within provident funds you'd like to explore?"
+    - text: "Certainly! In order to provide you with accurate information, could you please specify the area of provident funds you're curious about?"
+    - text: "I'd be glad to assist you further. Could you provide additional context or details about the particular area of provident funds you'd like to know more about?"
+    - text: "Absolutely! To give you the best information, could you please let me know which specific aspect of provident funds you're interested in?"
 
-  actions:
-    - utter_welcome
-    - utter_thanks
-    - utter_goodbye
-    - utter_ask_more_info 
-    - action_documents_required
-    - action_pf_benifit
-    - action_ask
-    - action_define
+actions:
+  - utter_welcome
+  - utter_thanks
+  - utter_goodbye
+  - utter_ask_more_info 
+  - action_documents_required
+  - action_pf_benifit
+  - action_ask
+  - action_define

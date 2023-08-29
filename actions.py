@@ -1,6 +1,7 @@
-from typing import Any,List,Dict,Text
-from rasa.sdk import Action, Tracker
-from rasa.executor import CollectingDispatcher
+from rasa_sdk import Action, Tracker
+from rasa_sdk.executor import CollectingDispatcher
+from typing import Any, Text, Dict, List
+
 
 # class ActionName(Action):
 #     def name(self) -> Text:
