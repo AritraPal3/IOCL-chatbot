@@ -1,5 +1,5 @@
 session_config:
-  session_expiration_time: 60.0
+  session_expiration_time: 60.0 #action after which the bot forgets about the conversation
   carry_over_slots_to_new_session: true
 
 intents:
@@ -64,3 +64,7 @@ responses:
     - utter_thanks
     - utter_goodbye
     - utter_ask_more_info 
+    - action_documents_required
+    - action_pf_benifit
+    - action_ask
+    - action_define

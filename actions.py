@@ -12,9 +12,31 @@ from rasa.executor import CollectingDispatcher
 #         return []
    
 
-class Action_Define(Action):
+class Action_Documents(Action):
     def name(self)->Text:
+        return "action_documents_required"
+    def run(self,dispatcher:CollectingDispatcher,tracker:Tracker,domain:Dict[Text,Any]) ->List[Dict[Text,Any]]:
+        dispatcher.utter_message(text="The following are the required documents")
+        return []
+    
+class Action_Benifits(Action):
+    def name(self) -> Text:
+        return "action_pf_benifit"
+    def run(self,dispatcher:CollectingDispatcher,tracker:Tracker,domain:Dict[Text,Any]) ->List[Dict[Text,Any]]:
+        dispatcher.utter_message(text="Here are the benifits of having provident fund")
+        return []
+    
+class Action_Ask(Action):
+    def name(self) -> Text:
+        return "action_ask"
+    
+    def run(self,dispatcher:CollectingDispatcher,tracker:Tracker,domain:Dict[Text,Any]) ->List[Dict[Text,Any]]:
+        dispatcher.utter_message(text="What do you want to know about provident fund")
+        return []
+
+class Action_Define(Action):
+    def name(self) -> Text:
         return "action_define"
     def run(self,dispatcher:CollectingDispatcher,tracker:Tracker,domain:Dict[Text,Any]) ->List[Dict[Text,Any]]:
-        dispatcher.utter_message("Here's the definition of provident fund")
+        dispatcher.utter_message(text="Here's your definition")
         return []
