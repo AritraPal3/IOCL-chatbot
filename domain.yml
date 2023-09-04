@@ -10,6 +10,7 @@ intents:
   - provident_fund_management
   - comparison_with_retirement_fund
   - provident_fund_types
+  - garbage
   - contributing_to_provident_fund
   - employer_employee_contributions
   - changing_jobs
@@ -101,12 +102,17 @@ responses:
     - text: "I'd be glad to assist you further. Could you provide additional context or details about the particular area of provident funds you'd like to know more about?"
     - text: "Absolutely! To give you the best information, could you please let me know which specific aspect of provident funds you're interested in?"
 
+  utter_fall_back:
+    - text: "Sorry I didn't understand your query"
+
 actions:
   - utter_welcome
   - utter_thanks
   - utter_goodbye
   - utter_ask_more_info 
+  - utter_fall_back
   - action_documents_required
   - action_pf_benifit
   - action_ask
   - action_define
+  - action_fallback

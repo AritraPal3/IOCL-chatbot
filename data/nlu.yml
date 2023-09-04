@@ -70,6 +70,19 @@ nlu:
     - Can you clarify the differences between a [provident fund](fund_type) and a retirement fund
     - What factors determine whether [I](user) should opt for a [provident fund](fund_type) or a retirement fund
 
+- intent: garbage
+  examples: |
+    -
+    - sljdfnsdjfiskdf
+    - kjsdfnsjdf
+    -     
+    - where are you 
+    - why shoul i tell you
+    - shut up
+    - blablablabala
+    - rubbish
+
+
 - intent: provident_fund_types
   examples: |
     - Are there different types of [provident fund](fund_type) available

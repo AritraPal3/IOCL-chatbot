@@ -27,4 +27,8 @@ stories:
       - intent: goodbye
       - action: utter_thanks
       - action: utter_goodbye
+  - story: out of scope
+    steps:
+      - intent: garbage
+      - action: action_fallback
 

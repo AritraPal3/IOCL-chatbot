@@ -56,5 +56,5 @@ class Action_Fallback(Action):
         return "action_fallback"
 
     def run(self,dispatcher:CollectingDispatcher,tracker:Tracker,domain:Dict[Text,Any]) ->List[Dict[Text,Any]]:
-        dispatcher.utter_message(text="Sorry I didn't understand your query")
+        dispatcher.utter_message(template="utter_fallback")
         return []

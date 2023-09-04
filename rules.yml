@@ -1,0 +1,5 @@
+rules:
+  - rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+    steps:
+      - intent: garbage
+      - action: action_fallback
