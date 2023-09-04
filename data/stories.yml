@@ -1,9 +1,9 @@
 stories:
-  - story: greet user and ask about provident fund
+  - story: Greet user and ask about provident fund
     steps:
       - intent: greet
       - action: utter_welcome
-      - action: action_ask
+      - action: utter_ask_more_info
       - intent: define_provident_fund
         entities:
           - fund_type: "provident fund"
@@ -11,14 +11,15 @@ stories:
       - intent: goodbye
       - action: utter_thanks
       - action: utter_goodbye
-  - story: greet user and answer about provident fund benifits
-    steps: 
+
+  - story: Greet user and answer about provident fund benefits
+    steps:
       - intent: greet
       - action: utter_welcome
-      - action: action_ask
+      - action: utter_ask_more_info
       - intent: provident_fund_benefit
-        entities: 
-          - fund type: "provident fund"
+        entities:
+          - fund_type: "provident fund"
           - use: "benefits"
           - user: "I"
       - action: action_pf_benifit
@@ -27,8 +28,89 @@ stories:
       - intent: goodbye
       - action: utter_thanks
       - action: utter_goodbye
+
   - story: out of scope
     steps:
       - intent: garbage
       - action: action_fallback
+  - story: Greet and Ask About Provident Fund
+    steps:
+      - intent: greet
+      - action: utter_welcome
+      - action: utter_ask_more_info
 
+  - story: Define Provident Fund
+    steps:
+      - intent: define_provident_fund
+      - action: action_define
+
+  - story: Ask About Provident Fund Working Mechanism
+    steps:
+      - intent: provident_fund_working_mechanism
+      - action: action_ask
+
+  - story: Ask About Provident Fund Benefits
+    steps:
+      - intent: provident_fund_benefit
+      - action: action_pf_benifit
+
+  - story: Ask About Provident Fund Management
+    steps:
+      - intent: provident_fund_management
+      - action: action_ask
+
+  - story: Ask for Comparison with Retirement Fund
+    steps:
+      - intent: comparison_with_retirement_fund
+      - action: utter_fall_back
+
+  - story: Ask About Provident Fund Types
+    steps:
+      - intent: provident_fund_types
+      - action: action_ask
+
+  - story: Ask About Contributing to Provident Fund
+    steps:
+      - intent: contributing_to_provident_fund
+      - action: action_ask
+
+  - story: Ask About Employer and Employee Contributions
+    steps:
+    - intent: employer_employee_contributions
+    - action: action_ask
+
+  - story: Ask About Changing Jobs and Provident Fund
+    steps:
+      - intent: changing_jobs
+      - action: action_ask
+
+  - story: Ask About Nomination Process
+    steps:
+      - intent: nomination_process
+      - action: action_ask
+
+  - story: Ask About Changing Beneficiary
+    steps:
+      - intent: changing_beneficiary
+      - action: action_ask
+
+  - story: Ask About Deceased Account Holder
+    steps:
+      - intent: deceased_account_holder
+      - action: action_ask
+
+  - story: Ask About Distribution of Funds
+    steps:
+      - intent: distribution_of_funds
+      - action: action_ask
+
+  - story: Say Goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+      - action: utter_thanks
+
+  - story: Fallback Scenario
+    steps:
+      - intent: garbage
+      - action: utter_fall_back

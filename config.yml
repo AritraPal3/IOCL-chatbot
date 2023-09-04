@@ -7,19 +7,16 @@ pipeline:
     random_seed: 2
   - name: EntitySynonymMapper
   - name: FallbackClassifier
-    threshold: 0.7
+    threshold: 0.3
 assistant_id: 20230821-131754-devout-buy-in
 policies:
   - name: MemoizationPolicy
     max_history: 5
   - name: TEDPolicy
     max_history: 3
-    epochs: 100
+    epochs: 1000
     random_seed: 5
     .validation_split: 0.2
-  - name: RulePolicy
-    core_fallback_threshold: 0.4
-    core_fallback_action_name: "action_fallback"
-    enable_fallback_prediction: True
+
 
 

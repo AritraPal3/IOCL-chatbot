@@ -30,7 +30,6 @@ class Action_Benifits(Action):
 class Action_Ask(Action):
     def name(self) -> Text:
         return "action_ask"
-    
     def run(self,dispatcher:CollectingDispatcher,tracker:Tracker,domain:Dict[Text,Any]) ->List[Dict[Text,Any]]:
         dispatcher.utter_message(text="What do you want to know about provident fund")
         return []
@@ -40,7 +39,6 @@ class Action_Define(Action):
         return "action_define"
     def run(self,dispatcher:CollectingDispatcher,tracker:Tracker,domain:Dict[Text,Any]) ->List[Dict[Text,Any]]:
         fund_type=tracker.get_slot('provident fund')
-        
         dispatcher.utter_message(text="Here's your definition about "+str(fund_type))
         return []
 
@@ -54,7 +52,6 @@ class Action_Ask_More(Action):
 class Action_Fallback(Action):
     def name(self) -> Text:
         return "action_fallback"
-
     def run(self,dispatcher:CollectingDispatcher,tracker:Tracker,domain:Dict[Text,Any]) ->List[Dict[Text,Any]]:
-        dispatcher.utter_message(template="utter_fallback")
+        dispatcher.utter_message(response="utter_fallback")
         return []

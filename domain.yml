@@ -31,12 +31,12 @@ entities:
   - job
 
 slots: 
-  fund_type:
+  provident fund:
     type: text
     mappings:
       - type: from_entity
         entity: fund_type
-  user:
+  I:
     type: text
     mappings:
       - type: from_entity
@@ -51,7 +51,7 @@ slots:
     mappings:
       - type: from_entity
         entity: documents
-  state:
+  death:
     type: text
     mappings:
       - type: from_entity
@@ -61,7 +61,7 @@ slots:
     mappings:
       - type: from_entity
         entity: selection
-  reciever:
+  nominee:
     type: text
     mappings:
       - type: from_entity
@@ -103,7 +103,8 @@ responses:
     - text: "Absolutely! To give you the best information, could you please let me know which specific aspect of provident funds you're interested in?"
 
   utter_fall_back:
-    - text: "Sorry I didn't understand your query"
+    - text: "Sorry I didn't understand your query. Please rephrase"
+    - text: "I did not get your question. Try asking in a different way"
 
 actions:
   - utter_welcome
