@@ -102,7 +102,7 @@ responses:
     - text: "I'd be glad to assist you further. Could you provide additional context or details about the particular area of provident funds you'd like to know more about?"
     - text: "Absolutely! To give you the best information, could you please let me know which specific aspect of provident funds you're interested in?"
 
-  utter_fall_back:
+  utter_default:
     - text: "Sorry I didn't understand your query. Please rephrase"
     - text: "I did not get your question. Try asking in a different way"
 
@@ -117,3 +117,4 @@ actions:
   - action_ask
   - action_define
   - action_fallback
+  - action_ans_explain

@@ -8,6 +8,7 @@ stories:
         entities:
           - fund_type: "provident fund"
       - action: action_define
+      - action: action_ans_explain
       - intent: goodbye
       - action: utter_thanks
       - action: utter_goodbye
@@ -42,7 +43,7 @@ stories:
   - story: Define Provident Fund
     steps:
       - intent: define_provident_fund
-      - action: action_define
+      - action: action_ans_explain
 
   - story: Ask About Provident Fund Working Mechanism
     steps:
