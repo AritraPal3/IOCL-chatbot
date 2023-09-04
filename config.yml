@@ -8,6 +8,16 @@ pipeline:
   - name: EntitySynonymMapper
 assistant_id: 20230821-131754-devout-buy-in
 policies:
+  - name: MemoizationPolicy
+    max_history: 5
+  - name: KerasPolicy
+    max_history: 3
+    epochs: 100
+    random_seed: 5
+    .validation_split: 0.2
+  - name: MappingPolicy
+  - name: FallbackPolicy
+
 # # No configuration for policies was provided. The following default policies were used to train your model.
 # # If you'd like to customize them, uncomment and adjust the policies.
 # # See https://rasa.com/docs/rasa/policies for more information.

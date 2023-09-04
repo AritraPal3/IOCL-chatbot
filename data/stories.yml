@@ -11,3 +11,4 @@ stories:
       - intent: goodbye
       - action: utter_thanks
       - action: utter_goodbye
+
