@@ -6,7 +6,7 @@ intents:
   - greet
   - define_provident_fund
   - provident_fund_working_mechanism
-  - provident_fund_benfit
+  - provident_fund_benefit
   - provident_fund_management
   - comparison_with_retirement_fund
   - provident_fund_types
@@ -23,11 +23,53 @@ entities:
   - fund_type
   - user
   - use
-  - job
-  - selection
-  - reciever
   - documents
   - state
+  - selection
+  - reciever
+  - job
+
+slots: 
+  fund_type:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: fund_type
+  user:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: user
+  use:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: use
+  documents:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: documents
+  state:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: state
+  selection:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: selection
+  reciever:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: reciever
+  job:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: job
 
 responses:
   utter_welcome:

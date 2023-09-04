@@ -39,5 +39,22 @@ class Action_Define(Action):
     def name(self) -> Text:
         return "action_define"
     def run(self,dispatcher:CollectingDispatcher,tracker:Tracker,domain:Dict[Text,Any]) ->List[Dict[Text,Any]]:
-        dispatcher.utter_message(text="Here's your definition")
+        fund_type=tracker.get_slot('provident fund')
+        
+        dispatcher.utter_message(text="Here's your definition about "+str(fund_type))
+        return []
+
+class Action_Ask_More(Action):
+    def name(self) -> Text:
+        return "action_ask_more"
+    def run(self,dispatcher:CollectingDispatcher,tracker:Tracker,domain:Dict[Text,Any]) ->List[Dict[Text,Any]]:
+        dispatcher.utter_message(text="If you want to know more please let me know")
+        return []
+    
+class Action_Fallback(Action):
+    def name(self) -> Text:
+        return "action_fallback"
+
+    def run(self,dispatcher:CollectingDispatcher,tracker:Tracker,domain:Dict[Text,Any]) ->List[Dict[Text,Any]]:
+        dispatcher.utter_message(text="Sorry I didn't understand your query")
         return []
